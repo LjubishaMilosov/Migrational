@@ -1,0 +1,13 @@
+{
+"city": "Bijeljina",
+"country": "Bosnia & Herzegovina",
+"dob": {"day": 19, "month": "February", "year": 1957},
+"email": "oct23@gmail.com",
+"firstname": "oct21",
+"lastname": "test",
+"password": "oct231234",
+"password_confirmation": "oct231234",
+"phone": "45678976",
+"terms_and_conditions": true,
+"type": "candidate"
+}

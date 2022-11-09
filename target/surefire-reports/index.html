@@ -1,0 +1,1727 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Command_line_suite" class="navigator-link">
+              <span class="suite-name border-skipped">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Command_line_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Command_line_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Command_line_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Command_line_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Command_line_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Command_line_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Command_line_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods,  33 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods skipped suite-Command_line_suite"> (hide)</a> <!-- hide-methods skipped suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods skipped suite-Command_line_suite"> (show)</a> <!-- show-methods skipped suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Command_line_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.AdminAdminsTest" class="method navigator-link" hash-for-method="adminAdminsTest">adminAdminsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.AdminCandidatesTest" class="method navigator-link" hash-for-method="adminCandidatesTest">adminCandidatesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.AdminClientsTest" class="method navigator-link" hash-for-method="adminClientsTest">adminClientsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.AdminDashboardTest" class="method navigator-link" hash-for-method="adminDashboardTest">adminDashboardTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.AdminHistoryTest" class="method navigator-link" hash-for-method="adminHistoryTest">adminHistoryTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.AdminInvoicesTest" class="method navigator-link" hash-for-method="adminInvoicesTest">adminInvoicesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.AdminLoginTest" class="method navigator-link" hash-for-method="adminLoginTest">adminLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.AdminMessagesTest" class="method navigator-link" hash-for-method="adminMessagesTest">adminMessagesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.AdminPaymentsTest" class="method navigator-link" hash-for-method="adminPaymentsTest">adminPaymentsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.AdminPromoCodesTest" class="method navigator-link" hash-for-method="adminPromoCodesTest">adminPromoCodesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.AdminServiceProvidersTest" class="method navigator-link" hash-for-method="adminServiceProvidersTest">adminServiceProvidersTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.CandidateLoginTest" class="method navigator-link" hash-for-method="candidateLoginTest">candidateLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.Covid19VaccineTest" class="method navigator-link" hash-for-method="covid19VaccineTest">covid19VaccineTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.EducationQualificationTest" class="method navigator-link" hash-for-method="educationQualificationTest">educationQualificationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.EmployerLoginTest" class="method navigator-link" hash-for-method="employerLoginTest">employerLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.EmployerRegistrationInfoTest" class="method navigator-link" hash-for-method="employerRegistrationInfoTest">employerRegistrationInfoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.GermanLevelProficiencyTest" class="method navigator-link" hash-for-method="germanLevelProficiencyTest">germanLevelProficiencyTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.LandingPageTest" class="method navigator-link" hash-for-method="landingPageTest">landingPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.LandingPageTest" class="method navigator-link" hash-for-method="navigateFromLandingToLoginPageTest">navigateFromLandingToLoginPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.LandingPageTest" class="method navigator-link" hash-for-method="navigateFromLandingToRegisterNewAccountPageTest">navigateFromLandingToRegisterNewAccountPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.NostrificationTest" class="method navigator-link" hash-for-method="nostrificationTest">nostrificationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.PersonalInformationTest" class="method navigator-link" hash-for-method="personalInformationTest">personalInformationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.PreScreeningTest" class="method navigator-link" hash-for-method="preScreeningGetStartedBtnTest">preScreeningGetStartedBtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.PreScreeningTest" class="method navigator-link" hash-for-method="preScreeningToCovidVaccineStepTest">preScreeningToCovidVaccineStepTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.PreScreeningTest" class="method navigator-link" hash-for-method="preScreeningToEducationStepTest">preScreeningToEducationStepTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.PreScreeningTest" class="method navigator-link" hash-for-method="preScreeningToGermanLanguageStepTest">preScreeningToGermanLanguageStepTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.PreScreeningTest" class="method navigator-link" hash-for-method="preScreeningToNostrificationStepTest">preScreeningToNostrificationStepTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.PreScreeningTest" class="method navigator-link" hash-for-method="preScreeningToPersonalInfoStepTest">preScreeningToPersonalInfoStepTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.PreScreeningTest" class="method navigator-link" hash-for-method="preScreeningToReasonsForApplyingStepTest">preScreeningToReasonsForApplyingStepTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.ReasonsForApplyingTest" class="method navigator-link" hash-for-method="reasonsForApplyingTest">reasonsForApplyingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.RegisterNewAccountTest" class="method navigator-link" hash-for-method="registerCandidateAccountTest">registerCandidateAccountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.RegisterNewAccountTest" class="method navigator-link" hash-for-method="registerEmployerAccountTest">registerEmployerAccountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="org.migrational.pom.tests.CandidateRegistrationInfoTest" class="method navigator-link" hash-for-method="registrationInfoCandidateTest">registrationInfoCandidateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.Covid19VaccineTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="covid19VaccineTest">
+                  </a> <!-- covid19VaccineTest -->
+                  <span class="method-name">covid19VaccineTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.AdminClientsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminClientsTest">
+                  </a> <!-- adminClientsTest -->
+                  <span class="method-name">adminClientsTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.EmployerLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="employerLoginTest">
+                  </a> <!-- employerLoginTest -->
+                  <span class="method-name">employerLoginTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.AdminAdminsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminAdminsTest">
+                  </a> <!-- adminAdminsTest -->
+                  <span class="method-name">adminAdminsTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.EducationQualificationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="educationQualificationTest">
+                  </a> <!-- educationQualificationTest -->
+                  <span class="method-name">educationQualificationTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.NostrificationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="nostrificationTest">
+                  </a> <!-- nostrificationTest -->
+                  <span class="method-name">nostrificationTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.PreScreeningTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="preScreeningGetStartedBtnTest">
+                  </a> <!-- preScreeningGetStartedBtnTest -->
+                  <span class="method-name">preScreeningGetStartedBtnTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="preScreeningToCovidVaccineStepTest">
+                  </a> <!-- preScreeningToCovidVaccineStepTest -->
+                  <span class="method-name">preScreeningToCovidVaccineStepTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="preScreeningToEducationStepTest">
+                  </a> <!-- preScreeningToEducationStepTest -->
+                  <span class="method-name">preScreeningToEducationStepTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="preScreeningToGermanLanguageStepTest">
+                  </a> <!-- preScreeningToGermanLanguageStepTest -->
+                  <span class="method-name">preScreeningToGermanLanguageStepTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="preScreeningToNostrificationStepTest">
+                  </a> <!-- preScreeningToNostrificationStepTest -->
+                  <span class="method-name">preScreeningToNostrificationStepTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="preScreeningToPersonalInfoStepTest">
+                  </a> <!-- preScreeningToPersonalInfoStepTest -->
+                  <span class="method-name">preScreeningToPersonalInfoStepTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="preScreeningToReasonsForApplyingStepTest">
+                  </a> <!-- preScreeningToReasonsForApplyingStepTest -->
+                  <span class="method-name">preScreeningToReasonsForApplyingStepTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.CandidateLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="candidateLoginTest">
+                  </a> <!-- candidateLoginTest -->
+                  <span class="method-name">candidateLoginTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.GermanLevelProficiencyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="germanLevelProficiencyTest">
+                  </a> <!-- germanLevelProficiencyTest -->
+                  <span class="method-name">germanLevelProficiencyTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.AdminHistoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminHistoryTest">
+                  </a> <!-- adminHistoryTest -->
+                  <span class="method-name">adminHistoryTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.AdminServiceProvidersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminServiceProvidersTest">
+                  </a> <!-- adminServiceProvidersTest -->
+                  <span class="method-name">adminServiceProvidersTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.RegisterNewAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerCandidateAccountTest">
+                  </a> <!-- registerCandidateAccountTest -->
+                  <span class="method-name">registerCandidateAccountTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerEmployerAccountTest">
+                  </a> <!-- registerEmployerAccountTest -->
+                  <span class="method-name">registerEmployerAccountTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.ReasonsForApplyingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="reasonsForApplyingTest">
+                  </a> <!-- reasonsForApplyingTest -->
+                  <span class="method-name">reasonsForApplyingTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.CandidateRegistrationInfoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationInfoCandidateTest">
+                  </a> <!-- registrationInfoCandidateTest -->
+                  <span class="method-name">registrationInfoCandidateTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.AdminInvoicesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminInvoicesTest">
+                  </a> <!-- adminInvoicesTest -->
+                  <span class="method-name">adminInvoicesTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.AdminMessagesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminMessagesTest">
+                  </a> <!-- adminMessagesTest -->
+                  <span class="method-name">adminMessagesTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.AdminPaymentsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminPaymentsTest">
+                  </a> <!-- adminPaymentsTest -->
+                  <span class="method-name">adminPaymentsTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.AdminCandidatesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminCandidatesTest">
+                  </a> <!-- adminCandidatesTest -->
+                  <span class="method-name">adminCandidatesTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.LandingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="landingPageTest">
+                  </a> <!-- landingPageTest -->
+                  <span class="method-name">landingPageTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateFromLandingToLoginPageTest">
+                  </a> <!-- navigateFromLandingToLoginPageTest -->
+                  <span class="method-name">navigateFromLandingToLoginPageTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateFromLandingToRegisterNewAccountPageTest">
+                  </a> <!-- navigateFromLandingToRegisterNewAccountPageTest -->
+                  <span class="method-name">navigateFromLandingToRegisterNewAccountPageTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.EmployerRegistrationInfoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="employerRegistrationInfoTest">
+                  </a> <!-- employerRegistrationInfoTest -->
+                  <span class="method-name">employerRegistrationInfoTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.AdminPromoCodesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminPromoCodesTest">
+                  </a> <!-- adminPromoCodesTest -->
+                  <span class="method-name">adminPromoCodesTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.AdminLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminLoginTest">
+                  </a> <!-- adminLoginTest -->
+                  <span class="method-name">adminLoginTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.PersonalInformationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="personalInformationTest">
+                  </a> <!-- personalInformationTest -->
+                  <span class="method-name">personalInformationTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.migrational.pom.tests.AdminDashboardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminDashboardTest">
+                  </a> <!-- adminDashboardTest -->
+                  <span class="method-name">adminDashboardTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant org.migrational.pom.constants.BrowserType.chrome
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.migrational.pom.constants.BrowserType.valueOf(BrowserType.java:3)
+	at org.migrational.pom.factory.DriverManager.initializeDriver(DriverManager.java:16)
+	at org.migrational.pom.base.BaseTest.startDriver(BaseTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Command line suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.migrational.pom.base.BaseTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.AdminAdminsTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.AdminCandidatesTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.AdminClientsTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.AdminDashboardTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.AdminHistoryTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.AdminInvoicesTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.AdminLoginTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.AdminMessagesTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.AdminPaymentsTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.AdminPromoCodesTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.AdminServiceProvidersTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.CandidateLoginTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.CandidateRegistrationInfoTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.Covid19VaccineTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.EducationQualificationTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.EmployerLoginTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.EmployerRegistrationInfoTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.GermanLevelProficiencyTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.LandingPageTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.MyFirstTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.NostrificationTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.PersonalInformationTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.PreScreeningTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.ReasonsForApplyingTest&quot;/&gt;
+      &lt;class name=&quot;org.migrational.pom.tests.RegisterNewAccountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (26 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'adminCandidatesTest')
+data.setCell(0, 2, 'org.migrational.pom.tests.AdminCandidatesTest')
+data.setCell(0, 3, 3);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'employerLoginTest')
+data.setCell(1, 2, 'org.migrational.pom.tests.EmployerLoginTest')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'navigateFromLandingToLoginPageTest')
+data.setCell(2, 2, 'org.migrational.pom.tests.LandingPageTest')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'adminClientsTest')
+data.setCell(3, 2, 'org.migrational.pom.tests.AdminClientsTest')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'landingPageTest')
+data.setCell(4, 2, 'org.migrational.pom.tests.LandingPageTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'adminLoginTest')
+data.setCell(5, 2, 'org.migrational.pom.tests.AdminLoginTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'preScreeningGetStartedBtnTest')
+data.setCell(6, 2, 'org.migrational.pom.tests.PreScreeningTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'candidateLoginTest')
+data.setCell(7, 2, 'org.migrational.pom.tests.CandidateLoginTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'preScreeningToCovidVaccineStepTest')
+data.setCell(8, 2, 'org.migrational.pom.tests.PreScreeningTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'navigateFromLandingToRegisterNewAccountPageTest')
+data.setCell(9, 2, 'org.migrational.pom.tests.LandingPageTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'personalInformationTest')
+data.setCell(10, 2, 'org.migrational.pom.tests.PersonalInformationTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'adminMessagesTest')
+data.setCell(11, 2, 'org.migrational.pom.tests.AdminMessagesTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'germanLevelProficiencyTest')
+data.setCell(12, 2, 'org.migrational.pom.tests.GermanLevelProficiencyTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'preScreeningToPersonalInfoStepTest')
+data.setCell(13, 2, 'org.migrational.pom.tests.PreScreeningTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'preScreeningToReasonsForApplyingStepTest')
+data.setCell(14, 2, 'org.migrational.pom.tests.PreScreeningTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'registerEmployerAccountTest')
+data.setCell(15, 2, 'org.migrational.pom.tests.RegisterNewAccountTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'adminAdminsTest')
+data.setCell(16, 2, 'org.migrational.pom.tests.AdminAdminsTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'preScreeningToEducationStepTest')
+data.setCell(17, 2, 'org.migrational.pom.tests.PreScreeningTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'registrationInfoCandidateTest')
+data.setCell(18, 2, 'org.migrational.pom.tests.CandidateRegistrationInfoTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'adminInvoicesTest')
+data.setCell(19, 2, 'org.migrational.pom.tests.AdminInvoicesTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'adminDashboardTest')
+data.setCell(20, 2, 'org.migrational.pom.tests.AdminDashboardTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'covid19VaccineTest')
+data.setCell(21, 2, 'org.migrational.pom.tests.Covid19VaccineTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'adminPaymentsTest')
+data.setCell(22, 2, 'org.migrational.pom.tests.AdminPaymentsTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'registerCandidateAccountTest')
+data.setCell(23, 2, 'org.migrational.pom.tests.RegisterNewAccountTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'employerRegistrationInfoTest')
+data.setCell(24, 2, 'org.migrational.pom.tests.EmployerRegistrationInfoTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'adminHistoryTest')
+data.setCell(25, 2, 'org.migrational.pom.tests.AdminHistoryTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'preScreeningToGermanLanguageStepTest')
+data.setCell(26, 2, 'org.migrational.pom.tests.PreScreeningTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'reasonsForApplyingTest')
+data.setCell(27, 2, 'org.migrational.pom.tests.ReasonsForApplyingTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'nostrificationTest')
+data.setCell(28, 2, 'org.migrational.pom.tests.NostrificationTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'adminPromoCodesTest')
+data.setCell(29, 2, 'org.migrational.pom.tests.AdminPromoCodesTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'educationQualificationTest')
+data.setCell(30, 2, 'org.migrational.pom.tests.EducationQualificationTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'preScreeningToNostrificationStepTest')
+data.setCell(31, 2, 'org.migrational.pom.tests.PreScreeningTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'adminServiceProvidersTest')
+data.setCell(32, 2, 'org.migrational.pom.tests.AdminServiceProvidersTest')
+data.setCell(32, 3, 0);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 ms</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.AdminAdminsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adminAdminsTest</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.AdminCandidatesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adminCandidatesTest</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.AdminClientsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adminClientsTest</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">39 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.AdminDashboardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adminDashboardTest</span>
+                <span class="method-start">42 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">43 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.AdminHistoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">44 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">48 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">adminHistoryTest</span>
+                <span class="method-start">48 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.AdminInvoicesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adminInvoicesTest</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">52 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.AdminLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">54 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adminLoginTest</span>
+                <span class="method-start">55 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">56 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.AdminMessagesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">58 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adminMessagesTest</span>
+                <span class="method-start">59 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.AdminPaymentsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adminPaymentsTest</span>
+                <span class="method-start">68 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">69 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.AdminPromoCodesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adminPromoCodesTest</span>
+                <span class="method-start">75 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">76 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.AdminServiceProvidersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">81 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">adminServiceProvidersTest</span>
+                <span class="method-start">81 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.CandidateLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">84 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">candidateLoginTest</span>
+                <span class="method-start">87 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">88 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.CandidateRegistrationInfoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">89 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registrationInfoCandidateTest</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.Covid19VaccineTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">96 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">covid19VaccineTest</span>
+                <span class="method-start">97 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">99 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.EducationQualificationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">educationQualificationTest</span>
+                <span class="method-start">103 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">105 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.EmployerLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">107 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">employerLoginTest</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">113 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.EmployerRegistrationInfoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">115 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">employerRegistrationInfoTest</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">118 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.GermanLevelProficiencyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">121 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">germanLevelProficiencyTest</span>
+                <span class="method-start">123 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">124 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.LandingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">125 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">landingPageTest</span>
+                <span class="method-start">127 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">128 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">navigateFromLandingToLoginPageTest</span>
+                <span class="method-start">129 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">129 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">130 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">136 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateFromLandingToRegisterNewAccountPageTest</span>
+                <span class="method-start">137 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">137 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.NostrificationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">nostrificationTest</span>
+                <span class="method-start">141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">141 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.PersonalInformationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">143 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">personalInformationTest</span>
+                <span class="method-start">144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">144 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.PreScreeningTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">146 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">preScreeningGetStartedBtnTest</span>
+                <span class="method-start">148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">149 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">149 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">preScreeningToCovidVaccineStepTest</span>
+                <span class="method-start">150 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">151 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">153 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">preScreeningToEducationStepTest</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">156 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">preScreeningToGermanLanguageStepTest</span>
+                <span class="method-start">156 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">157 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">preScreeningToNostrificationStepTest</span>
+                <span class="method-start">160 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">160 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">161 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">161 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">preScreeningToPersonalInfoStepTest</span>
+                <span class="method-start">162 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">162 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">preScreeningToReasonsForApplyingStepTest</span>
+                <span class="method-start">165 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">165 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">165 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.ReasonsForApplyingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">192 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">reasonsForApplyingTest</span>
+                <span class="method-start">198 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">199 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.migrational.pom.tests.RegisterNewAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startDriver</span>
+                <span class="method-start">200 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerCandidateAccountTest</span>
+                <span class="method-start">205 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">207 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">208 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">registerEmployerAccountTest</span>
+                <span class="method-start">208 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

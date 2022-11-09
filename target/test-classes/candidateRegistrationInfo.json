@@ -1,0 +1,13 @@
+{
+  "firstName": "SelenuimTest5",
+  "lastName": "Selenium5",
+  "dayOfBirth": "19",
+  "monthOfBirth": "October",
+  "yearOfBirth": "1983",
+  "countryOfBirth": "Macedonia",
+  "cityOfBirth": "Probishtip",
+  "phoneNumber": "076361888",
+  "email": "seleniumtest5@gmail.com",
+  "password": "seleniumtest51234",
+  "repeatPassword": "seleniumtest51234"
+}

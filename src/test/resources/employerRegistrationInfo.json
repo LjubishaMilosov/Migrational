@@ -1,0 +1,15 @@
+{
+  "typeOfService": "university_hospital",
+  "institutionName": "EmployerSelenium",
+  "institutionLocation": "Berlin",
+  "institutionBusinessNumber": "2345678",
+  "institutionTaxNumber": "1234567890",
+  "employerFirstName": "Selenium",
+  "employerLastName": "Employer",
+  "employerDivision": "lorem_ipsum_1",
+  "employerPosition": "position_1",
+  "employerPhone": "3456765",
+  "employerEmail": "employerseleniumtest@gmail.com",
+  "employerPassword": "employer1234",
+  "employerRepeatPassword": "employer1234"
+}

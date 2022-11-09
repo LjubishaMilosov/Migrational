@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="org.migrational.pom.tests.AdminPaymentsTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+          <include name="adminPaymentsTest"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.AdminPaymentsTest -->
+      <class name="org.migrational.pom.tests.Covid19VaccineTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+          <include name="covid19VaccineTest"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.Covid19VaccineTest -->
+      <class name="org.migrational.pom.tests.AdminClientsTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="adminClientsTest"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.AdminClientsTest -->
+      <class name="org.migrational.pom.tests.AdminCandidatesTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+          <include name="adminCandidatesTest"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.AdminCandidatesTest -->
+      <class name="org.migrational.pom.tests.LandingPageTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="navigateFromLandingToLoginPageTest"/>
+          <include name="navigateFromLandingToRegisterNewAccountPageTest"/>
+          <include name="quitDriver"/>
+          <include name="landingPageTest"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.LandingPageTest -->
+      <class name="org.migrational.pom.tests.EmployerLoginTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+          <include name="employerLoginTest"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.EmployerLoginTest -->
+      <class name="org.migrational.pom.tests.EmployerRegistrationInfoTest">
+        <methods>
+          <include name="employerRegistrationInfoTest"/>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.EmployerRegistrationInfoTest -->
+      <class name="org.migrational.pom.tests.AdminAdminsTest">
+        <methods>
+          <include name="adminAdminsTest"/>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.AdminAdminsTest -->
+      <class name="org.migrational.pom.tests.NostrificationTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+          <include name="nostrificationTest"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.NostrificationTest -->
+      <class name="org.migrational.pom.tests.EducationQualificationTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+          <include name="educationQualificationTest"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.EducationQualificationTest -->
+      <class name="org.migrational.pom.tests.AdminPromoCodesTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+          <include name="adminPromoCodesTest"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.AdminPromoCodesTest -->
+      <class name="org.migrational.pom.tests.PreScreeningTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="preScreeningGetStartedBtnTest"/>
+          <include name="quitDriver"/>
+          <include name="preScreeningToEducationStepTest"/>
+          <include name="preScreeningToGermanLanguageStepTest"/>
+          <include name="preScreeningToPersonalInfoStepTest"/>
+          <include name="preScreeningToReasonsForApplyingStepTest"/>
+          <include name="preScreeningToCovidVaccineStepTest"/>
+          <include name="preScreeningToNostrificationStepTest"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.PreScreeningTest -->
+      <class name="org.migrational.pom.tests.CandidateLoginTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+          <include name="candidateLoginTest"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.CandidateLoginTest -->
+      <class name="org.migrational.pom.tests.GermanLevelProficiencyTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="germanLevelProficiencyTest"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.GermanLevelProficiencyTest -->
+      <class name="org.migrational.pom.tests.AdminHistoryTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="adminHistoryTest"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.AdminHistoryTest -->
+      <class name="org.migrational.pom.tests.AdminServiceProvidersTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+          <include name="adminServiceProvidersTest"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.AdminServiceProvidersTest -->
+      <class name="org.migrational.pom.tests.RegisterNewAccountTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="registerEmployerAccountTest"/>
+          <include name="quitDriver"/>
+          <include name="registerCandidateAccountTest"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.RegisterNewAccountTest -->
+      <class name="org.migrational.pom.tests.ReasonsForApplyingTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+          <include name="reasonsForApplyingTest"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.ReasonsForApplyingTest -->
+      <class name="org.migrational.pom.tests.CandidateRegistrationInfoTest">
+        <methods>
+          <include name="registrationInfoCandidateTest"/>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.CandidateRegistrationInfoTest -->
+      <class name="org.migrational.pom.tests.AdminLoginTest">
+        <methods>
+          <include name="adminLoginTest"/>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.AdminLoginTest -->
+      <class name="org.migrational.pom.tests.PersonalInformationTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+          <include name="personalInformationTest"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.PersonalInformationTest -->
+      <class name="org.migrational.pom.tests.AdminInvoicesTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="adminInvoicesTest"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.AdminInvoicesTest -->
+      <class name="org.migrational.pom.tests.AdminDashboardTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="adminDashboardTest"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.AdminDashboardTest -->
+      <class name="org.migrational.pom.tests.AdminMessagesTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="adminMessagesTest"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- org.migrational.pom.tests.AdminMessagesTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
